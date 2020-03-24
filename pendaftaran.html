@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="./img/ikhlas-beramal-logopng-32921-16x16.ico" type="image/x-icon">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="./css/library/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/profil-sekolah.css">
+
+    <title>PPDB Online</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light text-uppercase fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                <img src="./img/logo_nav.png" alt="logo-nav">
+                <span>MTS Guppi Ambal</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Beranda</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Profil Sekolah
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="#">Visi & Misi</a>
+                              <a class="dropdown-item" href="#">Profil Sekolah</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Info</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Galeri
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="#">Galeri Foto</a>
+                              <a class="dropdown-item" href="#">Galeri Video</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="btn btn-pendaftaran">Pendaftaran</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+        <main class="site-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="judul">Pendaftaran</h1>
+                        <hr class="judul-garis">
+                    </div>
+                </div>
+            </div>
+            <section class="header-pendaftaran">
+                <div class="container mt-3">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-sm-12 text-center">
+                            <img src="./img/alur-pendaftaran.png" alt="alur-pendaftaran" class="img-pendaftaran">
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <h3>Kepada Para Pendaftar Harap Diikuti Langkah-Langkahnya dengan Benar</h3>
+                            <img src="./img/carousel/suasana-kegiatan-solat-duha-du-MTsN-2.jpg" alt="pendaftaran-img" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="content-pendaftaran mt-5">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h1>Form Pendaftaran</h1>
+                    <hr class="judul-garis" align="left">
+                  </div>                  
+                </div>
+              </div>
+              <div class="container">
+                  <form>
+                    <h2><i class="fas fa-user"></i>  Data Diri</h2>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="namaLengkap">Nama Lengkap</label>
+                        <input type="text" class="form-control" id="namaLengkap">
+                        <p class="text-danger">Nama salah</p>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="tanggalLahir">Tanggal Lahir</label>
+                        <input type="date" class="form-control" id="tanggalLahir">
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="hobi">Hobi</label>
+                        <input type="text" class="form-control" id="hobi">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="asalSekolah">Asal Sekolah</label>
+                        <input type="text" class="form-control" id="asalSekolah">
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="jenisKelamin">Jenis Kelamin</label>
+                        <select id="jenisKelamin" class="form-control">
+                          <option selected>Pilih...</option>
+                          <option>Laki-laki</option>
+                          <option>Perempuan</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="citaCita">Cita-cita</label>
+                      <textarea class="form-control" id="citaCita" placeholder="Contoh : Polisi, karena saya ingin menangkap orang-orang jahat"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <label for="alamat">Alamat</label>
+                      <textarea class="form-control" id="alamat" placeholder="Contoh : Jl. Raya Senang Bambu Rt 01/01 Kecamatan Sukasari Kabupaten Suramadu"></textarea>
+                    </div>
+                    <h2><i class="fas fa-address-card"></i>  Kontak</h2>            
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="nomorTelepon">Nomor Telepon</label>
+                        <input type="tel" pattern="^\d{10}$" class="form-control" id="nomorTelepon">
+                        <p class="text-danger">Nama salah</p>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email">
+                      </div>
+                    </div>
+                    <h2><i class="fas fa-user-friends"></i>  Orang Tua</h2>
+                    <div class="form-row">
+                      <div class="form-group col-md-3">
+                        <label for="kondisiOrangTua">Kondisi Orang Tua</label>
+                        <select id="kondisiOrangTua" class="form-control">
+                          <option selected>Pilih...</option>
+                          <option>Lengkap</option>
+                          <option>Yatim</option>
+                          <option>Piatu</option>
+                          <option>Yatim - Piatu</option>
+                          <option>Cerai</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-3">
+                        <label for="nomorTeleponOrtu">Nomor Telepon Orang Tua</label>
+                        <input type="tel" pattern="^\d{10}$" class="form-control" id="nomorTeleponOrtu">
+                      </div>
+                      <div class="form-group col-md-3">
+                        <label for="namaAyah">Nama Ayah</label>
+                        <input type="text" class="form-control" id="namaAyah">
+                      </div>
+                      <div class="form-group col-md-3">
+                        <label for="namaIbu">Nama Ibu</label>
+                        <input type="text" class="form-control" id="namaIbu">
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-3">
+                        <label for="pekerjanAyah">Pekerjaan Ayah</label>
+                        <input type="text" class="form-control" id="pekerjaanAyah">
+                      </div>
+                      <div class="form-group col-md-3">
+                        <label for="pekerjanIbu">Pekerjaan Ibu</label>
+                        <input type="text" class="form-control" id="pekerjaanIbu">
+                      </div>
+                      <div class="form-group col-md-3">
+                        <label for="gajiORangTua">Gaji Orang Tua / Bulan</label>
+                        <select id="gajiORangTua" class="form-control">
+                          <option selected>Pilih...</option>
+                          <option>< Rp. 1.000.000</option>
+                          <option>Rp. 1.000.000 - Rp.2.500.000</option>
+                          <option>Rp.2.500.000 - Rp.5.000.000</option>
+                          <option>> Rp. 5.000.000</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-3">
+                        <label for="kondisiOrangTua">Jumlah Saudara</label>
+                        <select id="kondisiOrangTua" class="form-control">
+                          <option value="tidak ada">tidak ada</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                          <option value="13">13</option>
+                          <option value="14">14</option>
+                          <option value="15">15</option>
+                        </select>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-pendaftaran">Kirim Data</button>
+                  </form>
+              </div>
+              <div class="container mt-5">
+                <div class="row">
+                  <div class="col-lg-12 text-center">
+                    <h4>Kumpulan Calon-Calon Siswa/I yang Sudah Mendaftar</h4>
+                    <a href="#" class="btn btn-pendaftaran mt-3">Lihat Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </section>
+        </main>
+        <!-- Start Footer -->
+        <footer>
+            <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                    <p class="title-footer text-center">
+                      © 2020 MTS Guppi Ambal. All Rights Reserved. Made by <a href="https://sizwuanoadi.github.io">Sizuwano</a>
+                    </p>
+                    <div class="text-center">
+                      <a href="#" class="btn btn-outline-green rounded-circle mr-2 mt-3">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="#" class="btn btn-outline-green rounded-circle mr-2 mt-3">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+                      </a>
+                      <a href="#" class="btn btn-outline-green rounded-circle mr-2 mt-3">
+                        <i class="fab fa-youtube"></i>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </footer>
+    <!-- End Footer -->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="bootstrap4/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="bootstrap4/js/popper.min.js"></script>
+    <script src="bootstrap4/js/bootstrap.min.js"></script>
+    <!-- Ekko Lightbox JS -->
+    <script src="./js/library/ekko-lightbox.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

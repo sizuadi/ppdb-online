@@ -1,0 +1,263 @@
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-family: var(--marria);
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* Import Font Face */
+@font-face{
+    font-family: 'Lora','MerriwatherSans';
+    src: url('../fonts/Lora-Regular.ttf') format('truetype'),
+        url('../fonts/MerriweatherSans-Regular.ttf') format('truetype');
+}
+/* CSS Variable */
+:root{
+    --primary-color : #11a536;
+    --primary-color2 : #1a7230;
+    --title-color : #141313;
+    --text-color : #777777;
+    --border-color : #201f1f17;
+    --gradient-color : linear-gradient(90deg, #11a536 0%, #1a7230 100%);
+    --gradient-color2 : linear-gradient(180deg, #11a536 0%, #1a7230 100%);
+    --shadow-color : 0px 10px 30px rgba(188, 85, 225, 0.3);
+    --box-shadow : 0px 10px 30px rgba(57, 56, 61, 0.205);
+    --marria : "MerriwatherSans", sans-serif;
+    --lora : "Lora", serif;
+
+}
+
+/* Global CSS */
+.title-text{
+    font: normal bold 50px/72px var(--maria);
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+/* Navbar */
+.navbar{
+    font: normal 500 14px/16px var(--marria);
+}
+.navbar .navbar-brand{
+    padding: 0 2rem  0 5rem;
+}
+.navbar .navbar-nav .nav-item{
+    padding-left: 1.7rem;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    padding-top: 11px;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+    font: normal 500 12px/13px var(--marria);
+}
+.navbar .navbar-nav .nav-item .btn-pendaftaran{
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: 0.2s;
+}
+.navbar .navbar-nav .nav-item .btn-pendaftaran:hover{
+    background-color: var(--primary-color2);
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* End Navbar */
+/* Carousel */
+.tales {
+    width: 100%;
+}
+.carousel-inner{
+    width:100%;
+    max-height: 600px !important;
+}
+
+.carousel-inner .carousel-item img{
+    filter: brightness(0.5);
+}
+
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    z-index: 999;
+    color: #fff;
+    text-align: center;
+    top: 380px;
+}
+/* Card Carousel */
+.card-carousel{
+    margin-top: -100px;
+    box-shadow: var(--box-shadow);
+    border-radius: 20px;
+}
+.card-carousel .card-body .card-text{
+    font: normal 500 28px/30px var(--lora);
+}
+.card-carousel .card-body .card-title{
+    color: var(--primary-color2);
+}
+.card-carousel .card-body .btn-card-carousel{
+    border: 2px solid var(--primary-color2);
+    color: var(--primary-color2);
+    transition: 0.2s;
+}
+.card-carousel .card-body .btn-card-carousel:hover{
+    border: none;
+    color: #fff;
+    background-color: var(--primary-color2);
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: var(--box-shadow);
+}
+
+/* End Card Carousel */
+/* End Carousel */
+/* Start Pendaftaran */
+.pendaftaran{
+    background: var(--gradient-color);
+    min-height: 800px;
+    width: 100%;
+    margin-top: -100px;
+    padding-top: 300px;
+}
+.pendaftaran .container{
+    color: #fff;
+}
+.pendaftaran .text-title{
+    font-family: var(--lora);
+}
+.pendaftaran .btn-daftar{
+    border: 2px solid #fff;
+    color: #fff;
+    transition: 0.3s;
+}
+.pendaftaran .btn-daftar:hover{
+    background-color: #fff;
+    color: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    margin-bottom: 10px;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.pendaftaran .img-pendaftaran{
+    margin-left: -170px;
+}
+/* End Pendafataran */
+/* Start Alasan Sekolah */
+.alasan-sekolah{
+    margin-top: 50px;
+}
+.alasan-sekolah .judul .judul-text{
+    font-family: var(--lora);
+}
+.alasan-sekolah .judul .judul-garis{
+    width: 300px;
+    border-top: 3px solid var(--primary-color2);
+}
+.content .card-alasan-sekolah{
+    background: var(--gradient-color);
+    color: #fff;
+    padding: 5px 5px;
+    border: transparent;
+    border-radius: 0 20px 0 20px;
+    min-height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+.content .card-alasan-sekolah:hover{
+    background: var(--gradient-color);
+    color: #fff;
+    padding: 5px 5px;
+    border: transparent;
+    border-radius: 0 20px 0 20px;
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+/* End Alasan Sekolah */
+/* Start Info Sekolah */
+.info-sekolah{
+    background: var(--primary-color);
+    width: 100%;
+    padding-top: 100px;
+    color: #fff;
+    padding-bottom: 100px;
+}
+.info-sekolah .judul-text{
+    font-family: var(--lora);
+}
+.info-sekolah .judul-garis{
+    width: 200px;
+    border-top: 3px solid #fff;
+}
+.content .card-info-sekolah{
+    background-color: var(--primary-color);
+    border: transparent;
+    margin-top: 20px;
+}
+.content .card-info-sekolah .card-body{
+    padding: 20px 0 0 0;
+}
+.content .card-info-sekolah .card-body .tanggal-waktu{
+    font: normal 500 12px/14px var(--marria);
+    margin-top: -10px;
+}
+.content .card-info-sekolah .card-body .btn-info{
+    border: 2px solid #fff;
+    color: #fff;
+    transition: 0.3s;
+    background-color: var(--primary-color);
+}
+.content .card-info-sekolah .card-body .btn-info:hover{
+    background-color: #fff;
+    color: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    margin-bottom: 10px;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+/* End Info Sekolah */
+/* Start footer */
+footer{
+    background-color: #fbfbfb;
+    height: 200px;
+    color: var(--primary-color);
+}
+footer .title-footer{
+    font-family: var(--lora);
+    font-size: 16px; 
+    margin-top: 50px; 
+}
+footer .btn-outline-green{
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+footer .btn-outline-green:hover{
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* End Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
